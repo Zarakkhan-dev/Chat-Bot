@@ -1,0 +1,125 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "hy",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, Welcome to the Legal Ai ChatBot",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "How can we  asset you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "Knowedge",
+      "patterns": ["information", "Law", "know","what can you do for me",""],
+      "responses": [
+        "We only provide the information of Law under act 299 to act 324 of Pakistan",
+        "I am designed to facilitate the user with the information of Law under act 299 to act 324 of Pakistan "
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "itension to murder",
+      "patterns": ["A heated disagreement between two people in a small village gets out of hand to the point that one of them gets furious and purposefully kills the other out of wrath. The PPC's Section 302, which addresses murder, may be applied in response to this deliberate act of causing death. The incident's circumstances would play a major role in deciding what legal action to take.", "Two siblings get into a heated disagreement about how to divide their deceased parent's assets in a family inheritance dispute. When one of the siblings, motivated by strong feelings and a desire for a greater portion, turns to the other in a planned and deadly attack, the argument reaches a terrible height. The intentional act that kills a family member may give rise to the application of Section 302 of the Pakistan Penal Code, which addresses the murder charge. Then, in the context of the family quarrel, the legal system would step in to address the grave criminal ramifications of such an act."],
+      "responses": ["This is lay on 302 section" ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What do you offer ?",
+        "What do you served ?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "summary",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "SummaryFunction"
+      ]
+    },
+    {
+      "tag": "information of 302",
+      "patterns": [
+        "What is section 302 related to?",
+        "Explain the section 302?",
+        "Which person is layable to 302",
+        "information about 302",
+        "what is 302?"
+      ],
+      "responses": [
+     "302 is intensionally "
+      ]
+    }
+  ]
+}
