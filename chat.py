@@ -47,7 +47,7 @@ while sentence !="quit":
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]#Probability for this tag is high enough and to do this 
-    if prob.item() > 0.75:
+    if prob.item() > 0.50:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 print(f"{bot_name}: {random.choice(intent['responses'])}")
