@@ -8,7 +8,7 @@ from nltk_utilis import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('intents.json', 'r') as json_data:
+with open('intents.json', 'r', encoding='utf-8') as json_data:
     intents = json.load(json_data)
 
 FILE = "data.pth"
@@ -47,7 +47,7 @@ while sentence !="quit":
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]#Probability for this tag is high enough and to do this 
-    if prob.item() > 0.50:
+    if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 print(f"{bot_name}: {random.choice(intent['responses'])}")
